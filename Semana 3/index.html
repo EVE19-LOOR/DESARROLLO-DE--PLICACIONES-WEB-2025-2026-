@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 3 - Desarrollo Web</title>
+
+    <!-- ESTILOS CSS (todo incluido aquí) -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3f3f3;
+        }
+
+        header {
+            background-color: #283593;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        /* Tabla */
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 2px solid #283593;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        /* Formulario */
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        input {
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 2px solid #283593;
+        }
+
+        button {
+            padding: 10px;
+            background: #283593;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bienvenidos al Desarrollo Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Inicio</a></li>
+                <li><a href="#seccion2">Contenido</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="seccion1">
+            <h2>Introducción</h2>
+            <p>
+                Esta página fue creada para practicar las etiquetas básicas de HTML,
+                incluyendo <strong>encabezados, listas, imágenes</strong> y más.
+                También usamos etiquetas semánticas que <em>mejoran la estructura</em>.
+            </p>
+        </section>
+
+        <section id="seccion2">
+            <h2>Contenido Multimedia</h2>
+
+            <article>
+                <h3>Imagen desde el proyecto</h3>
+                <img src="assets/img/imagen1.jpg" alt="Imagen de ejemplo" width="350">
+            </article>
+
+            <article>
+                <h3>Video desde el proyecto</h3>
+                <video controls width="350">
+                    <source src="assets/video/video1.mp4" type="video/mp4">
+                </video>
+            </article>
+        </section>
+
+        <section>
+            <h2>Listas</h2>
+
+            <h3>Lista ordenada (OL)</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+
+            <h3>Lista desordenada (UL)</h3>
+            <ul>
+                <li>GitHub</li>
+                <li>Live Server</li>
+                <li>VS Code</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tabla de datos</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Duración</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML Básico</td>
+                        <td>3 semanas</td>
+                    </tr>
+                    <tr>
+                        <td>CSS Intermedio</td>
+                        <td>4 semanas</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>6 semanas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulario de contacto</h2>
+            
+            <form>
+                <label>Nombre:</label>
+                <input type="text" required>
+
+                <label>Correo:</label>
+                <input type="email" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Enlace externo</h2>
+            <a href="https://www.google.com" target="_blank">Visitar Google</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 - Proyecto Semana 3</p>
+    </footer>
+
+</body>
+</html>
