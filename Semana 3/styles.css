@@ -1,0 +1,180 @@
+/* =========================
+   Estilo general
+========================= */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 20px;
+}
+
+/* =========================
+   Encabezado
+========================= */
+header {
+    background-color: #e51e7b;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* =========================
+   Navegación
+========================= */
+nav {
+    background-color: #e20c89;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   Encabezados
+========================= */
+h2 {
+    color: #fa0393;
+    border-bottom: 2px solid #e00fac;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #d2197f;
+}
+
+/* =========================
+   Párrafos
+========================= */
+p {
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* =========================
+   Secciones
+========================= */
+section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* =========================
+   Imagen
+========================= */
+img {
+    display: block;
+    margin: 15px auto;
+    width: 300px;
+    border: 3px solid #e04653;
+    border-radius: 8px;
+}
+
+/* =========================
+   VIDEO (ARREGLADO)
+========================= */
+video {
+    display: block;
+    margin: 20px auto;
+    width: 420px;
+    max-width: 100%;
+    border: 4px solid #db3861;
+    border-radius: 12px;
+    background-color: #000;
+}
+
+/* =========================
+   Tabla
+========================= */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #e441a5;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #d85fb0;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #e3f2fd;
+}
+
+/* =========================
+   Formulario
+========================= */
+form {
+    margin-top: 15px;
+    padding: 15px;
+    border: 2px solid #df3dae;
+    border-radius: 8px;
+    background-color: #e3f2fd;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #90caf9;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #dd34aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e744b1;
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #555;
+}
+
+
